@@ -1,7 +1,7 @@
 import { DataStore } from 'aws-amplify'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { Post } from '../src/models'
+import { Post } from '../models'
 
 export default function Home() {
   const [posts, setPosts] = useState([])
